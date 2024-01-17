@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header><h1>Basketball Scores</h1></header>
+    <main>
+        <img src="img/basketball-court.jpeg" alt="basketball-court" width="500px">
+        <div id="div1">
+            <div id="div2">
+                <div id="p1">
+                    <p>1 point basket</p>
+                    <input type="number" name="point1" id="point1" value="0" min="0">  
+                </div>
+                <div id="p2">
+                    <p>2 point basket</p>
+                    <input type="number" name="point2" id="point2" value="0" min="0">                    
+                </div>
+                <div id="p3">
+                    <p>3 point basket</p>
+                    <input type="number" name="point3" id="point3" value="0" min="0">                    
+                </div>
+            </div>
+            <div id="div3">
+                <div id="div4">
+                    <h1>Total</h1>
+                    <h1 id="resultado">0</h1>
+                </div>
+                <div id="div5">
+                    <button onclick= "calculate()">Calculate</button>
+                    <button onclick= "reset()">Reset</button>
+                </div>
+            </div>
+        </div>    
+    </main>  
+</body>
+</html>
